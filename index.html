@@ -22,7 +22,7 @@
         ✅ Diagnosis Result: Displays possible conditions based on AI response.
     -->
 
-    <form action="">
+    <form action="" id="symptom-form">
         <label for="first-name" >First Name:</label>
         <input type="text" name="first-name" id="first-name"><br><br>
         <label for="last-name">Last Name:</label>
@@ -35,10 +35,16 @@
             <option value="Female">Female</option>
             <option value="Male">Male</option>
         </datalist><br><br>
+        <label for="symptoms">Describe your symptoms:</label>
+        <textarea name="symptoms" id="symptoms" required></textarea><br><br>
         <input type="submit" value="submit">
         <input type="reset" value="reset">
-
     </form>
+
+    <p id="loading">Processing...</p>
+    <p><strong>Diagnosis:</strong><span id="response"></span></p>
+
+
     
 </body>
 </html>
