@@ -18,5 +18,12 @@ input{
 input[type=submit], input[type=reset]{
     width: 60px;
     border-radius: 5px;
+    background-color: #8F08FF;
+    color: white;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    transition: all ease-in-out;
+    transform: scale(1.5);
 }
 
