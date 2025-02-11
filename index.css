@@ -3,7 +3,33 @@ body{
     color: white;
 }
 
+h1 {
+    color: #1F75EC;
+}
 
+p {
+    color: white;
+}
+
+.everything {
+    display: flex;
+    justify-content: flex-start;
+}
+
+img {
+    margin-right: 50px;
+    max-height: 3oopx;
+    max-width: 300px;
+}
+
+.all {
+    border: 1px #1F75EC;
+}
+
+footer {
+    color: #685575;
+    font-size: 12px;
+}
 
 .dropbtn {
     background-color: black;
